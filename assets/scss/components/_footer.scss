@@ -1,0 +1,27 @@
+footer{
+    background-color: $blue;
+    margin-top:50px;
+    height:60px;
+    ul{
+        margin-top:20px;
+        li{
+            display: inline-block;
+            a{
+                font-family: $mont;
+                font-weight:700;
+                font-size:12px;
+                color: #fff;
+                padding: 15px;
+
+                &:hover{
+                    color:$orange;
+                    -webkit-transition: all 200ms ease-in-out;
+                    -moz-transition: all 200ms ease-in-out;
+                    -ms-transition: all 200ms ease-in-out;
+                    -o-transition: all 200ms ease-in-out;
+                    transition: all 200ms ease-in-out;
+                }
+            }
+        }
+    }
+}

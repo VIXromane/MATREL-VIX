@@ -1,0 +1,224 @@
+h2{
+    a{
+        color: $yellow;
+        font-family: $mont;
+        text-transform: uppercase;
+        font-size: 35px;
+        padding-bottom: 20px;
+        font-weight: 700;
+        &:hover{
+            color: $blue;
+            -webkit-transition: all 300ms ease-in-out;
+            -moz-transition: all 300ms ease-in-out;
+            -ms-transition: all 300ms ease-in-out;
+            -o-transition: all 300ms ease-in-out;
+            transition: all 300ms ease-in-out;
+        }
+    }
+
+
+}
+.border{
+    margin-bottom: 50px;
+}
+
+h4{
+    font-family: $hind;
+    font-weight: 300;
+    color: #dadada;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.description-produit{
+    li{
+        font-family: $hind;
+        font-size:14px;
+        line-height: 24px;
+        color: $darkgray;
+        list-style: none;
+        list-style-image : url('../images/matrel/puce.png');
+        padding-left:20px;
+    }
+}
+
+
+.button.expanded {
+    background-color: transparent;
+    border-radius: 30px;
+    border: 1px solid $orange;
+    color: $orange;
+    font-family: $mont;
+    font-size: 14px;
+    height: 60px;
+    line-height: 40px;
+    width: 350px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+    img{
+        padding-right:20px;
+    }
+
+    &:hover{
+        background-color:$orange;
+        color:#fff;
+        -webkit-transition: all 0.7s ease-in-out;
+        -moz-transition: all 0.7s ease-in-out;
+        -ms-transition: all 0.7s ease-in-out;
+        -o-transition: all 0.7s ease-in-out;
+        transition: all 0.7s ease-in-out;
+    }
+}
+.heading-blue{
+    background-color: $blue;
+    height:80px;
+    h3{
+        color: #fff;
+        font: $mont;
+        margin-top: 25px;
+        font-size: 20px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .fa-angle-down{
+        padding-left:20px;
+        color:#fff;
+        font-size:30px;
+
+    }
+}
+
+.caracteristiques-listes{
+    background-color: $lightgray;
+    article{
+        margin-top:50px;
+        ul{
+            li{
+                font-family: $hind;
+                font-size:14px;
+                color:$darkgray;
+                line-height: 34px;
+                list-style: none;
+                list-style-image : url('../images/matrel/puce-blanche.jpg');
+                padding-left:20px;
+
+                strong{
+                    font-weight:600;
+                }
+            }
+        }
+    }
+}
+h3{
+    color: $blue;
+    font: $mont;
+    font-weight: 600;
+    margin-top: 45px;
+    margin-bottom: 45px;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.bg-orange{
+    background-color: $orange;
+    margin-top:50px;
+    margin-bottom:50px;
+    background-image:url('../images/matrel/bg-orange.jpg')center center;
+
+    h4{
+        font-family: $hind;
+        font-size: 25px;
+        font-weight: 500;
+        margin-top:60px;
+        margin-bottom: 60px;
+        color:#fff;
+    }
+    a{
+        background-color: #fff;
+        display: block;
+        border-radius: 30px;
+        color: $orange;
+        font-family: $mont;
+        font-size: 18px;
+        height: 60px;
+        line-height: 60px;
+        width: 300px;
+        margin-top:45px;
+        text-align: center;
+
+        &:hover{
+            opacity: 0.7;
+            -webkit-transition: all 0.7s ease-in-out;
+            -moz-transition: all 0.7s ease-in-out;
+            -ms-transition: all 0.7s ease-in-out;
+            -o-transition: all 0.7s ease-in-out;
+            transition: all 0.7s ease-in-out;
+        }
+
+        img{
+            margin-right:20px;
+        }
+
+    }
+}
+
+.cross-selling{
+    .products{
+
+        height:400px;
+
+        &:hover{
+            opacity: 0.5;
+            -webkit-transition: all 300ms ease-in-out;
+            -moz-transition: all 300ms ease-in-out;
+            -ms-transition: all 300ms ease-in-out;
+            -o-transition: all 300ms ease-in-out;
+            transition: all 300ms ease-in-out;
+        }
+
+        img{
+            margin-bottom: 20px;
+        }
+        h5{
+            font-family: $hind;
+            font-size:18px;
+            color:$yellow;
+            text-align: left;
+            text-transform: uppercase;
+            font-weight:700;
+
+            &:hover{
+                color:$blue;
+                -webkit-transition: all 300ms ease-in-out;
+                -moz-transition: all 300ms ease-in-out;
+                -ms-transition: all 300ms ease-in-out;
+                -o-transition: all 300ms ease-in-out;
+                transition: all 300ms ease-in-out;
+            }
+        }
+    }
+}
+
+table.widefat{
+    border:2px solid white;
+
+    td{
+    }
+}
+
+.slideshow-slideleft{
+    display: none;
+}
+
+.slideshow-slideright{
+    display: none;
+}
+
+
+
+code{
+    background: white;
+    border: 0px;
+}
